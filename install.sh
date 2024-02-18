@@ -4,7 +4,7 @@ sudo apt update && sudo apt upgrade -y
 
 sudo apt-get install build-essential
 
-sudo apt install zsh
+sudo apt install zsh -y
 
 chsh -s $(which zsh)
 

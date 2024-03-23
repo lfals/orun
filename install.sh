@@ -30,9 +30,7 @@ sudo tar -C /opt -xzf nvim-linux64.tar.gz
 
 echo 'export PATH="$PATH:/opt/nvim-linux64/bin"' >>  ~/.zshrc
 
-git clone --depth 1 https://github.com/lfals/nvim
-~/.config/nvim
+git clone --depth 1 https://github.com/lfals/nvim ~/.config/nvim
 
-git clone --depth 1 https://github.com/wbthomason/packer.nvim\
- ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+git clone --depth 1 https://github.com/wbthomason/packer.nvim\  ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 

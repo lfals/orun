@@ -3,4 +3,4 @@
 ```
 
 
-Depois de rodar o comando, reiniciar o terminal e abrir o nvim, ir até `~./config/nvim/lua/felps/packer.lua` rodar `:so` e `:PackerSync`
+Depois de rodar o comando, reiniciar o terminal e abrir o nvim, ir até `~/.config/nvim/lua/felps/packer.lua` rodar `:so` e `:PackerSync`
